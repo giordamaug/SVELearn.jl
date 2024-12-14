@@ -1,12 +1,12 @@
 # SVElearn
-SVElearn is an aronym for Splitting Voting Ensemble of Learners is a new Machine learning methods designed to address unbalanced data domains.
+**SVElearn** is an aronym for **S**plitting **V**oting **E**nsemble of **Learn**ers is a new Machine learning methods designed to address unbalanced data domains.
 
 ## Authors
 - [Maurizio Giordano](https://orcid.org/0000-0001-9917-7591) and [Ilaria Granata](https://orcid.org/0000-0002-3450-4667)
 - High Performance Computing and Networking (ICAR), Italian National Council of Research (CNR)
 
 # Documentation
-This package is a Julia library of machine learning methods developed by ICAR-CNR for efficient prediction models in unbalanced data domains.
+The `SVElearn.jl` package is a Julia library of machine learning methods developed by ICAR-CNR for efficient prediction models in unbalanced data domains.
 
 ## The Splitting Voting Ensemble
 
@@ -28,7 +28,7 @@ The number $n$ of classifiers is automatically determined by the algorithm accor
 
 
 # Credits
-The SVElearn.jl package was developed by High Performance Computing and Networking Institute of National Research Council of Italy (ICAR-CNR).
+The `SVElearn.jl` package was developed by High Performance Computing and Networking Institute of National Research Council of Italy (ICAR-CNR).
 This software is released under the GNU Licence (v.3) 
 
 # Cite
