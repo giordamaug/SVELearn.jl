@@ -10,7 +10,6 @@ MLJBase = "a7f614a8-145f-11e9-1d2a-a57a1082229d"
 MLJModelInterface = "e80e1ace-859a-464e-9ed9-23947d8ae3ea"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
-StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
 [compat]
 CategoricalDistributions = "0.1.15"
@@ -19,4 +18,3 @@ MLJBase = "1.7.0"
 MLJModelInterface = "1.7.2"
 Random = "1.7.2"
 Statistics = "1.7.2"
-StatsBase = "0.33"
