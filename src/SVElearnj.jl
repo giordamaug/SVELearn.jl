@@ -1,4 +1,4 @@
-module SVElearn
+module SVElearnj
 
 using MLJ
 using MLJBase
