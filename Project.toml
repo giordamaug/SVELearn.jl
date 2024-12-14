@@ -1,4 +1,4 @@
-name = "SVElearn.jl"
+name = "SVElearn"
 uuid = "04f68ac3-44e9-48d3-a806-a0b42702f1f7"
 authors = ["Maurizio Giordano <maurizio.giordano@cnr.it>"]
 version = "0.1.0"
