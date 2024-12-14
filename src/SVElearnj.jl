@@ -4,7 +4,6 @@ using MLJ
 using MLJBase
 using Random
 using Statistics
-using StatsBase
 using MLJModelInterface
 using CategoricalDistributions
 
@@ -102,7 +101,7 @@ function MLJModelInterface.predict_mode(model::SplitVotingEnsemble, ::Nothing, X
     predictions = [MLJModelInterface.predict(clf, Xnew) for clf in model.classifiers]
 
     # Apply the chosen voting method
-    return StatsBase.mode.(soft_or_hard_voting(predictions, model.voting))
+    return Statistics.mode.(soft_or_hard_voting(predictions, model.voting))
 end
 
 # Define the keys method for SplitVotingEnsemble
