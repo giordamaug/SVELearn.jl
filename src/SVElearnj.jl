@@ -165,4 +165,4 @@ function split_and_distribute_remainder(v::Vector, num_chunks::Int)
     return chunks
 end  
 
-end # module SVElearn
+end # module SVElearnj
