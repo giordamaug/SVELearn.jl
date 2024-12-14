@@ -1,17 +1,16 @@
-# SVElearn
-**SVElearn** is an aronym for **S**plitting **V**oting **E**nsemble of **Learn**ers is a new Machine learning methods designed to address unbalanced data domains.
+# SVElearnj
+**SVElearnj** is an acronym for **S**plitting **V**oting **E**nsemble of **learn**ers for **j**ulia is a new machine learning method designed to address unbalanced data domains.
 
 ## Authors
 - [Maurizio Giordano](https://orcid.org/0000-0001-9917-7591) and [Ilaria Granata](https://orcid.org/0000-0002-3450-4667)
 - High Performance Computing and Networking (ICAR), Italian National Council of Research (CNR)
 
 # Documentation
-The `SVElearn.jl` package is a Julia library of machine learning methods developed by ICAR-CNR for efficient prediction models in unbalanced data domains.
+The `SVElearnj` package is a Julia library of machine learning methods developed by ICAR-CNR for efficient prediction models in unbalanced data domains.
 
 ## The Splitting Voting Ensemble
 
-The Splitting VotSVElearn is an aronym for Splitting Voting Ensemble of Learnerns Machine learning methods for unbalanced datasets
-gn Ensemble (SVE) is a meta-model designed to address classification task on unbalanced machine learning datasets.
+`SVElearnj` implements a *meta-model of learning* designed to address classification tasks on unbalanced machine learning datasets.
 
 SVE can be considered a meta-learning algorithm since it uses another learning method as a base model for all members of the ensemble to combine their predictions. 
 This algorithm was designed and developed to address binary and multiclass classification tasks in data domains characterized by strong unbalancing of classes, such as Cybersecurity, Bionformatics, etc.
@@ -28,7 +27,7 @@ The number $n$ of classifiers is automatically determined by the algorithm accor
 
 
 # Credits
-The `SVElearn.jl` package was developed by High Performance Computing and Networking Institute of National Research Council of Italy (ICAR-CNR).
+The `SVElearnj` package was developed by High Performance Computing and Networking Institute of National Research Council of Italy (ICAR-CNR).
 This software is released under the GNU Licence (v.3) 
 
 # Cite
