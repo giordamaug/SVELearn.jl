@@ -3,6 +3,7 @@ module SVElearnj
 using MLJ
 using MLJBase
 using Random
+using StatsBase
 using Statistics
 using MLJModelInterface
 using CategoricalDistributions
